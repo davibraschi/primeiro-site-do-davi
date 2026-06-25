@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do - Davi Sigma</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; text-align: center; padding-top: 50px; }
+        h1 { color: #1565c0; }
+        button { background-color: #1565c0; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; }
+        button:hover { background-color: #0d47a1; }
+    </style>
+</head>
+<body>
+
+    <h1>Minha Primeira Interação Web</h1>
+    <p>Professor me da nota</p>
+    
+    <button onclick="interagir()">Clique aqui!</button>
+
+    <script>
+        function interagir() {
+            alert("Banana com Farinha");
+        }
+    </script>
+
+</body>
+</html>
