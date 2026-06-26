@@ -1,0 +1,48 @@
+header {
+    background-color: #183C63;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #183C63;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article {
+    display: flex;
+    gap: 20px;            /* NOVO: Cria um espaço saudável entre a imagem e o texto */
+    margin-bottom: 30px;  /* NOVO: Separa o primeiro post do segundo post */
+    align-items: flex-start; /* NOVO: Garante que o alinhamento comece pelo topo */
+}
+
+/* 🌟 AQUI ESTÁ A SOLUÇÃO DO PROBLEMA 🌟 */
+article div {
+    flex: 1;              /* Força a div a ocupar todo o espaço restante, corrigindo o clique */
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;    /* NOVO: Garante que a imagem não fique esticada ou distorcida */
+    border-radius: 8px;   /* Opcional: Deixa os cantos da imagem arredondados */
+}
+
+.artigo-autor {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;      /* NOVO: Transforma o mouse na "mãozinha" de clique */
+    margin-right: 10px;   /* NOVO: Afasta o botão de coração do botão de joinha */
+    padding: 6px 12px;    /* Opcional: Deixa o botão maior e mais fácil de clicar */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
