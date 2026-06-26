@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Start - Meu Portfólio</title>
+    <title>Alura - Meu Portfólio</title>
     
-    <!-- CSS: Estilização no padrão Alura Start -->
+    <!-- CSS: Estilo inspirado no padrão Alura -->
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,8 +63,8 @@
     <!-- HTML: Estrutura da Página -->
     <div class="container">
         <h1>Olá, Mundo! 🚀</h1>
-        <p>Este é o meu primeiro site desenvolvido através do programa <strong>Alura Start</strong>, em parceria com a Secretaria de Educação do Paraná (SEED-PR).</p>
-        <p>Aqui aprendi a unir a estrutura do HTML, o estilo do CSS e a programação com JavaScript para criar interações reais.</p>
+        <p>Esse é o meu primeiro site desenvolvido para meu curso <strong>Alura</strong>.</p>
+        <p>Eu aprendi a fazer sites e entender a estrutura do HTML, e a programação com JavaScript para criar sites.</p>
         
         <!-- Botão que ativa a interação ensinada na aula -->
         <button onclick="primeiraInteracao()">Iniciar Interação</button>
