@@ -8,7 +8,7 @@
     <!-- CSS: Estilo inspirado no padrão Alura -->
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
             background-color: #04152e; /* Fundo azul escuro clássico da Alura */
             color: #ffffff;
             text-align: center;
